@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+.content {
+  text-align: center;	
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 35px auto;
+}
+
+.img-style {
+  height: 48vh;
+  max-width: 98%;
+  margin: 20px 0;
+}
+
+.header {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.thanks-text {
+  margin: 50px 0;
+  font-size: 20px;
+}
+
+
+@media screen and (min-width: 800px) {
+  .img-style {
+    width: 48vw;
+    height: auto;
+  }
+}
